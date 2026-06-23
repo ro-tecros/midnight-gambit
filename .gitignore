@@ -1,0 +1,19 @@
+# Dependencias
+node_modules/
+**/node_modules/
+
+# Entorno
+.env
+server/.env
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Datos de Postgres montados localmente
+db_data/
